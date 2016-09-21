@@ -1,0 +1,56 @@
+#needle
+{
+	position:relative;
+}
+
+h2
+{
+  font:bold 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-align:center;
+}
+
+.baro_char { padding: 10px; display: inline-block; cursor: pointer; z-index: 9; position: absolute; }
+
+#p5 { right: -5%; top: 50%; margin-top: -19px; }
+#p4 { right: -3.2%; top: 34%; margin-top: -19px; }
+#p3 { right: 3.2px; top: 19.5%; margin-top: -19px; }
+#p2 { right: 13%; top: 5%; margin-top: -19px; }
+#p1 { right: 29.5%; top: -4.5%; margin-top: -19px; }
+#zero { left: 47.5%; top: -8.5%; margin-top: -19px; }
+#n1 { left: 29.5%; top: -4.5%; margin-top: -19px; }
+#n2 { left: 13%; top: 5%; margin-top: -19px; }
+#n3 { left: 3.2px; top: 19.5%; margin-top: -19px; }
+#n4 { left: -3.2%; top: 34%; margin-top: -19px; }
+#n5 { left: -5.8%; top: 50%; margin-top: -19px; }
+
+
+#show_number { position: absolute; 
+font-size: 4.50em;
+width: 120px;
+text-align: center;
+top: 42%;
+left: 50%;
+z-index: 10;
+margin: -25px 0px 0px -60px; 
+}
+
+#plus { position: absolute;
+top: 60%;
+left: 64%;
+z-index: 9;
+margin: -25px 0px 0px -60px; 
+}
+#plus img{
+width: 80px;
+}
+
+#minus { position: absolute;
+top: 60%;
+left: 39%;
+z-index: 9;
+margin: -25px 0px 0px -60px; 
+}
+
+#minus img{
+width: 80px;
+}
